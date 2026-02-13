@@ -1,2 +1,0 @@
-# Simple layout
-TEST HR
