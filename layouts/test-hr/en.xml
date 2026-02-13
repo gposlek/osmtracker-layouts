@@ -8,19 +8,19 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon=" test-hr_icons/warning.png"/>
+			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="test-hr_icons/warning.png"/>
 			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="default_icon.png"/>
 		</row>
 	</layout>
 	<layout name="ogranicenja">
 				<row>
-					<button type="tag" label="  30 " icon=" test-hr_icons/30.png"/>
-					<button type="tag" label="  80 " icon=" test-hr_icons/80.png"/>
-					<button type="tag" label="  End " icon=" test-hr_icons/end.png"/>
+					<button type="tag" label="  30 " icon="test-hr_icons/30.png"/>
+					<button type="tag" label="  80 " icon="test-hr_icons/80.png"/>
+					<button type="tag" label="  End " icon="test-hr_icons/end.png"/>
 				</row>					<row>
-					<button type="tag" label="  40 " icon=" test-hr_icons/40.png"/>
-					<button type="tag" label="  90 " icon=" test-hr_icons/90.png"/>
-					<button type="tag" label=" City " icon=" test-hr_icons/city.png"/>
+					<button type="tag" label="  40 " icon="test-hr_icons/40.png"/>
+					<button type="tag" label="  90 " icon="test-hr_icons/90.png"/>
+					<button type="tag" label=" City " icon="test-hr_icons/city.png"/>
 				</row>
 				<row>
 					<button type="tag" label="  50 " icon=" test-hr_icons/50.png"/>
@@ -50,9 +50,9 @@
 				<button type="tag" label="Odron desno" icon=" test-hr_icons/landslide_r.png"/>
 			</row>
 			<row>
-				<button type="tag" label="Serpentina lijevo" icon=" test-hr_icons/serpentine_l.png"/>
-				<button type="tag" label="Divljač na cesti" icon=" test-hr_icons/wildlife.png"/>
-				<button type="tag" label="Serpentina desno" icon=" test-hr_icons/serpentine_r.png"/>
+				<button type="tag" label="Serpentina lijevo" icon="test-hr_icons/serpentine_l.png"/>
+				<button type="tag" label="Divljač na cesti" icon="test-hr_icons/wildlife.png"/>
+				<button type="tag" label="Serpentina desno" icon="test-hr_icons/serpentine_r.png"/>
 			</row>
 			<row>
 				<button type="page" label=" > > > " targetlayout="upozorenja_1" />
