@@ -59,13 +59,11 @@
 			<row>
 				<button type="tag" label="T lijevo" icon="test-hr_icons/junction_l.png"/>
 				<button type="tag" label="Raskrižje" icon="test-hr_icons/crossing_t.png"/>
-				<button type="tag" label="T desno" icon="test-hr_icons/junction_r.png"/>
-			</row>
-			<row>
 				<button type="tag" label="Y lijevo" icon="test-hr_icons/y_junction_l.png"/>
 				<button type="tag" label="Kružni tok" icon="test-hr_icons/roundabout.png"/>
-				<button type="tag" label="Y desno" icon="test-hr_icons/y_junction_r.png"/>
+				<button type="tag" label="T desno" icon="test-hr_icons/junction_r.png"/>
 			</row>
+			
 			<row>
 				<button type="page" label=" > > > " targetlayout="upozorenja_1" />
 			</row>
