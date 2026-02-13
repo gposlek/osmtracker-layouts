@@ -1,3 +1,0 @@
-# Simple layout
-
-Test layout
