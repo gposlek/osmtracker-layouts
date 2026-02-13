@@ -106,5 +106,5 @@
 				<button type="page" label=" H O M E " targetlayout="root" />
 				<button type="page" label=" > > > " targetlayout="upozorenja" />
 			</row>
-	layout
+	</layout>
 </layouts>
