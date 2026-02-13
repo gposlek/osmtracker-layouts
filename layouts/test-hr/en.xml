@@ -1,5 +1,4 @@
 
-
 <layouts>
 	<layout name="root">
 		<row>
@@ -8,8 +7,8 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="/my_icons/default.png"/>
-			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="./default.png"/>
+			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="my_icons/default.png"/>
+			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="default.png"/>
 		</row>
 	</layout>
 	<layout name="ogranicenja">
@@ -17,7 +16,8 @@
 					<button type="tag" label="···   30  ···" icon="my_icons/30.png"/>
 					<button type="tag" label="···   80  ···" icon="my_icons/80.png"/>
 					<button type="tag" label="···   End  ···" icon="my_icons/end.png"/>
-				</row>					<row>
+				</row>					
+				<row>
 					<button type="tag" label="···   40  ···" icon="my_icons/40.png"/>
 					<button type="tag" label="···   90  ···" icon="my_icons/90.png"/>
 					<button type="tag" label="···  City  ···" icon="my_icons/city.png"/>
