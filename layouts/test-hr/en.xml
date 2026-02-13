@@ -8,8 +8,8 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="my_icons/default_icon.png"/>
-			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="default_icon.png"/>
+			<button type="page" label="Ogranicenja" targetlayout="ogranicenja" icon="my_icons/default-icon.png"/>
+			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="default-icon.png"/>
 		</row>
 	</layout>
 	<layout name="ogranicenja">
