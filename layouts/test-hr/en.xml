@@ -19,7 +19,8 @@
 					<button type="tag" label="  30 " icon="test-hr_icons/30.png"/>
 					<button type="tag" label="  80 " icon="test-hr_icons/80.png"/>
 					<button type="tag" label="  End " icon="test-hr_icons/end.png"/>
-				</row>					<row>
+				</row>
+				<row>
 					<button type="tag" label="  40 " icon="test-hr_icons/40.png"/>
 					<button type="tag" label="  90 " icon="test-hr_icons/90.png"/>
 					<button type="tag" label=" City " icon="test-hr_icons/city.png"/>
@@ -103,7 +104,7 @@
 			<row>
 				<button type="page" label=" < < < " targetlayout="upozorenja_1" />
 				<button type="page" label=" H O M E " targetlayout="root" />
-				<button type="page" label=" > > > " targetlayout="upozorenja_3" />
+				<button type="page" label=" > > > " targetlayout="upozorenja" />
 			</row>
-	</layout>
+	layout
 </layouts>
