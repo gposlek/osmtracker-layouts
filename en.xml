@@ -1,0 +1,71 @@
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="maxspeed_icons/100.png"/>
+			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="maxspeed_icons/warning.png"/>
+		</row>
+	</layout>
+	<layout name="ogranicenja">
+				<row>
+					<button type="tag" label="···  Maxspeed 30  ···" icon="maxspeed_icons/30.png"/>
+					<button type="tag" label="···  Maxspeed 80  ···" icon="maxspeed_icons/80.png"/>
+					<button type="tag" label="···  Maxspeed End  ···" icon="maxspeed_icons/end.png"/>
+				</row>					<row>
+					<button type="tag" label="···  Maxspeed 40  ···" icon="maxspeed_icons/40.png"/>
+					<button type="tag" label="···  Maxspeed 90  ···" icon="maxspeed_icons/90.png"/>
+					<button type="tag" label="···  City  ···" icon="maxspeed_icons/city.png"/>
+				</row>
+				<row>
+					<button type="tag" label="···  Maxspeed 50  ···" icon="maxspeed_icons/50.png"/>
+					<button type="tag" label="···  Maxspeed 100  ···" icon="maxspeed_icons/100.png"/>
+					<button type="tag" label="···  City end  ···" icon="maxspeed_icons/cityend.png"/>
+				</row>
+				<row>
+					<button type="tag" label="···  Maxspeed 60  ···" icon="maxspeed_icons/60.png"/>
+					<button type="tag" label="···  Maxspeed 120  ···" icon="maxspeed_icons/120.png"/>
+					<button type="tag" label="Error"/>
+				</row>
+				<row>
+					<button type="tag" label="···  Maxspeed 70  ···" icon="maxspeed_icons/70.png"/>
+					<button type="tag" label="···  Maxspeed 130  ···" icon="maxspeed_icons/130.png"/>
+					<button type="tag" label="···  Camera  ···" icon="maxspeed_icons/camera.png"/>
+				</row>
+	</layout>
+	<layout name="upozorenja">
+			<row>
+				<button type="tag" label="Oštečenje kolnika" icon="maxspeed_icons/damage.png"/>
+				<button type="tag" label="Opasnost" icon="maxspeed_icons/warning.png"/>
+				<button type="tag" label="Sklizak kolnik" icon="maxspeed_icons/slippery.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Odron lijevo" icon="maxspeed_icons/landslide_l.png"/>
+				<button type="tag" label="Životinje na cesti" icon="maxspeed_icons/cattle.png"/>
+				<button type="tag" label="Odron desno" icon="maxspeed_icons/landslide_r.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Serpentina lijevo" icon="maxspeed_icons/serpentine_l.png"/>
+				<button type="tag" label="Divljač na cesti" icon="maxspeed_icons/wildlife.png"/>
+				<button type="tag" label="Serpentina desno" icon="maxspeed_icons/serpentine_r.png"/>
+			</row>
+			<row>
+				<button type="page" label=" > > > " targetlayout="upozorenja_1" />
+			</row>
+	</layout>
+	<layout name="upozorenja_1">
+			<row>
+				<button type="tag" label="T lijevo" icon="maxspeed_icons/junction_l.png"/>
+				<button type="tag" label="Raskrižje" icon="maxspeed_icons/crossing_t.png"/>
+				<button type="tag" label="T desno" icon="maxspeed_icons/junction_r.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Y lijevo" icon="maxspeed_icons/y_junction_l.png"/>
+				<button type="tag" label="Kružni tok" icon="maxspeed_icons/roundabout.png"/>
+				<button type="tag" label="Y desno" icon="maxspeed_icons/y_junction_r.png"/>
+			</row>
+	</layout>
+</layouts>
