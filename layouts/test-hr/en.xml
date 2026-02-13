@@ -103,8 +103,8 @@
 
 			<row>
 				<button type="page" label=" < < < " targetlayout="upozorenja_1" />
-				<button type="page" label=" H O M E " targetlayout="root" />
-				<button type="page" label=" > > > " targetlayout="upozorenja" />
+				<button type="page" label=" H O M E " targetlayout="upozorenja" />
+				<button type="page" label=" > > > " targetlayout="upozorenja_3" />
 			</row>
 	</layout>
 </layouts>
