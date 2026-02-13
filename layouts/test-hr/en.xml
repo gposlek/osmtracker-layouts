@@ -1,0 +1,107 @@
+
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+		</row>
+
+		<row>
+			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="test-hr_icons/speed.png"/>
+			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="test-hr_icons/warning.png"/>
+		</row>
+	</layout>
+	<layout name="ogranicenja">
+				<row>
+					<button type="tag" label="  30 " icon="test-hr_icons/30.png"/>
+					<button type="tag" label="  80 " icon="test-hr_icons/80.png"/>
+					<button type="tag" label="  End " icon="test-hr_icons/end.png"/>
+				</row>
+				<row>
+					<button type="tag" label="  40 " icon="test-hr_icons/40.png"/>
+					<button type="tag" label="  90 " icon="test-hr_icons/90.png"/>
+					<button type="tag" label=" City " icon="test-hr_icons/city.png"/>
+				</row>
+				<row>
+					<button type="tag" label="  50 " icon="test-hr_icons/50.png"/>
+					<button type="tag" label="  100 " icon="test-hr_icons/100.png"/>
+					<button type="tag" label=" City end " icon="test-hr_icons/cityend.png"/>
+				</row>
+				<row>
+					<button type="tag" label="  60 " icon="test-hr_icons/60.png"/>
+					<button type="tag" label="  120 " icon="test-hr_icons/120.png"/>
+					<button type="tag" label="Error"/>
+				</row>
+				<row>
+					<button type="tag" label="  70 " icon="test-hr_icons/70.png"/>
+					<button type="tag" label="  130 " icon="test-hr_icons/130.png"/>
+					<button type="tag" label=" Camera " icon="test-hr_icons/camera.png"/>
+				</row>
+	</layout>
+	<layout name="upozorenja">
+			<row>
+				<button type="tag" label="Oštečenje kolnika" icon="test-hr_icons/damage.png"/>
+				<button type="tag" label="Opasnost" icon="test-hr_icons/warning.png"/>
+				<button type="tag" label="Sklizak kolnik" icon="test-hr_icons/slippery.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Odron lijevo" icon="test-hr_icons/landslide_l.png"/>
+				<button type="tag" label="Životinje na cesti" icon="test-hr_icons/cattle.png"/>
+				<button type="tag" label="Odron desno" icon="test-hr_icons/landslide_r.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Serpentina lijevo" icon="test-hr_icons/serpentine_l.png"/>
+				<button type="tag" label="Divljač na cesti" icon="test-hr_icons/wildlife.png"/>
+				<button type="tag" label="Serpentina desno" icon="test-hr_icons/serpentine_r.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Oštro lijevo" icon="test-hr_icons/turn_l.png" />
+				<button type="tag" label="Tunel" icon="test-hr_icons/tunel.png" />
+				<button type="tag" label="Oštro desno" icon="test-hr_icons/turn_r.png" />
+			</row>
+			<row>
+				<button type="page" label=" > > > " targetlayout="upozorenja_1" />
+			</row>
+	</layout>
+	<layout name="upozorenja_1">
+			<row>
+				<button type="tag" label="T lijevo" icon="test-hr_icons/junction_l.png"/>
+				<button type="tag" label="Raskrižje" icon="test-hr_icons/crossing_t.png"/>
+				<button type="tag" label="T desno" icon="test-hr_icons/junction_r.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Y lijevo" icon="test-hr_icons/y_junction_l.png"/>
+				<button type="tag" label="Kružni tok" icon="test-hr_icons/roundabout.png"/>
+				<button type="tag" label="Y desno" icon="test-hr_icons/y_junction_r.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Pješaci na cesti" icon="test-hr_icons/pedestrian.png"/>
+				<button type="tag" label="Pješački prijelaz" icon="test-hr_icons/pedestrian_x.png"/>
+				<button type="tag" label="Djeca na cesti" icon="test-hr_icons/children.png"/>
+			</row>
+			<row>
+				<button type="tag" label="Suženje lijevo" icon="test-hr_icons/narrow_l.png"/>
+				<button type="tag" label="Suženje" icon="test-hr_icons/narrow.png"/>
+				<button type="tag" label="Suženje desno" icon="test-hr_icons/narrow_r"/>
+			</row>
+			<row>
+				<button type="page" label=" < < < " targetlayout="upozorenja" />
+				<button type="page" label=" > > > " targetlayout="upozorenja_2" />
+			</row>
+	</layout>
+	<layout name="upozorenja_2">
+			<row>
+				<button type="tag" label="T lijevo" icon="test-hr_icons/junction_l.png"/>
+				<button type="tag" label="Raskrižje" icon="test-hr_icons/crossing_t.png"/>
+				<button type="tag" label="T desno" icon="test-hr_icons/junction_r.png"/>
+			</row>
+			<row>
+				<button type="page" label=" < < < " targetlayout="upozorenja_1" />
+				<button type="page" label=" H O M E " targetlayout="root" />
+				<button type="page" label=" > > > " targetlayout="upozorenja_3" />
+			</row>
+	</layout>
+</layouts>
