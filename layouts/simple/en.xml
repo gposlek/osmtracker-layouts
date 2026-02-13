@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 
 <layouts>
 	<layout name="root">
@@ -8,51 +7,51 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="_icons/100.png"/>
-			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="_icons/warning.png"/>
+			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="my_icons/100.png"/>
+			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="my_icons/warning.png"/>
 		</row>
 	</layout>
 	<layout name="ogranicenja">
 				<row>
-					<button type="tag" label="···   30  ···" icon="_icons/30.png"/>
-					<button type="tag" label="···   80  ···" icon="_icons/80.png"/>
-					<button type="tag" label="···   End  ···" icon="_icons/end.png"/>
+					<button type="tag" label="···   30  ···" icon="my_icons/30.png"/>
+					<button type="tag" label="···   80  ···" icon="my_icons/80.png"/>
+					<button type="tag" label="···   End  ···" icon="my_icons/end.png"/>
 				</row>					<row>
-					<button type="tag" label="···   40  ···" icon="_icons/40.png"/>
-					<button type="tag" label="···   90  ···" icon="_icons/90.png"/>
-					<button type="tag" label="···  City  ···" icon="_icons/city.png"/>
+					<button type="tag" label="···   40  ···" icon="my_icons/40.png"/>
+					<button type="tag" label="···   90  ···" icon="my_icons/90.png"/>
+					<button type="tag" label="···  City  ···" icon="my_icons/city.png"/>
 				</row>
 				<row>
-					<button type="tag" label="···   50  ···" icon="_icons/50.png"/>
-					<button type="tag" label="···   100  ···" icon="_icons/100.png"/>
-					<button type="tag" label="···  City end  ···" icon="_icons/cityend.png"/>
+					<button type="tag" label="···   50  ···" icon="my_icons/50.png"/>
+					<button type="tag" label="···   100  ···" icon="my_icons/100.png"/>
+					<button type="tag" label="···  City end  ···" icon="my_icons/cityend.png"/>
 				</row>
 				<row>
-					<button type="tag" label="···   60  ···" icon="_icons/60.png"/>
-					<button type="tag" label="···   120  ···" icon="_icons/120.png"/>
+					<button type="tag" label="···   60  ···" icon="my_icons/60.png"/>
+					<button type="tag" label="···   120  ···" icon="my_icons/120.png"/>
 					<button type="tag" label="Error"/>
 				</row>
 				<row>
-					<button type="tag" label="···   70  ···" icon="_icons/70.png"/>
-					<button type="tag" label="···   130  ···" icon="_icons/130.png"/>
-					<button type="tag" label="···  Camera  ···" icon="_icons/camera.png"/>
+					<button type="tag" label="···   70  ···" icon="my_icons/70.png"/>
+					<button type="tag" label="···   130  ···" icon="my_icons/130.png"/>
+					<button type="tag" label="···  Camera  ···" icon="my_icons/camera.png"/>
 				</row>
 	</layout>
 	<layout name="upozorenja">
 			<row>
-				<button type="tag" label="Oštečenje kolnika" icon="_icons/damage.png"/>
-				<button type="tag" label="Opasnost" icon="_icons/warning.png"/>
-				<button type="tag" label="Sklizak kolnik" icon="_icons/slippery.png"/>
+				<button type="tag" label="Oštečenje kolnika" icon="my_icons/damage.png"/>
+				<button type="tag" label="Opasnost" icon="my_icons/warning.png"/>
+				<button type="tag" label="Sklizak kolnik" icon="my_icons/slippery.png"/>
 			</row>
 			<row>
-				<button type="tag" label="Odron lijevo" icon="_icons/landslide_l.png"/>
-				<button type="tag" label="Životinje na cesti" icon="_icons/cattle.png"/>
-				<button type="tag" label="Odron desno" icon="_icons/landslide_r.png"/>
+				<button type="tag" label="Odron lijevo" icon="my_icons/landslide_l.png"/>
+				<button type="tag" label="Životinje na cesti" icon="my_icons/cattle.png"/>
+				<button type="tag" label="Odron desno" icon="my_icons/landslide_r.png"/>
 			</row>
 			<row>
-				<button type="tag" label="Serpentina lijevo" icon="_icons/serpentine_l.png"/>
-				<button type="tag" label="Divljač na cesti" icon="_icons/wildlife.png"/>
-				<button type="tag" label="Serpentina desno" icon="_icons/serpentine_r.png"/>
+				<button type="tag" label="Serpentina lijevo" icon="my_icons/serpentine_l.png"/>
+				<button type="tag" label="Divljač na cesti" icon="my_icons/wildlife.png"/>
+				<button type="tag" label="Serpentina desno" icon="my_icons/serpentine_r.png"/>
 			</row>
 			<row>
 				<button type="page" label=" > > > " targetlayout="upozorenja_1" />
@@ -60,14 +59,14 @@
 	</layout>
 	<layout name="upozorenja_1">
 			<row>
-				<button type="tag" label="T lijevo" icon="_icons/junction_l.png"/>
-				<button type="tag" label="Raskrižje" icon="_icons/crossing_t.png"/>
-				<button type="tag" label="T desno" icon="_icons/junction_r.png"/>
+				<button type="tag" label="T lijevo" icon="my_icons/junction_l.png"/>
+				<button type="tag" label="Raskrižje" icon="my_icons/crossing_t.png"/>
+				<button type="tag" label="T desno" icon="my_icons/junction_r.png"/>
 			</row>
 			<row>
-				<button type="tag" label="Y lijevo" icon="_icons/y_junction_l.png"/>
-				<button type="tag" label="Kružni tok" icon="_icons/roundabout.png"/>
-				<button type="tag" label="Y desno" icon="_icons/y_junction_r.png"/>
+				<button type="tag" label="Y lijevo" icon="my_icons/y_junction_l.png"/>
+				<button type="tag" label="Kružni tok" icon="my_icons/roundabout.png"/>
+				<button type="tag" label="Y desno" icon="my_icons/y_junction_r.png"/>
 			</row>
 	</layout>
 </layouts>
