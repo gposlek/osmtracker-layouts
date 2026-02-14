@@ -57,7 +57,7 @@
 			<row>
 				
 				<button type="page" label=" > > > " targetlayout="upozorenja_1" />
-				<button type="page" label=" < < < " targetlayout="upozorenja" ref="home"/>
+				<button type="page" label=" < < < " targetlayout="upozorenja" />
 			</row>
 	</layout>
 	<layout name="upozorenja_1">
