@@ -1,6 +1,6 @@
 
 <layouts>
-	<layout name="root">
+	<layout name="root" id="home">
 		<row>
 			<button type="picture" icon="logo_camera"/>
 			<button type="textnote" icon="logo_textnote"/>
@@ -55,6 +55,11 @@
 			</row>
 			<row>
 				<button type="page" label=" > > > " targetlayout="upozorenja_1" />
+				<button type="page" label=" < < < ">
+					<link>#home</link>
+					<xref href="#home" />
+				</button>
+				
 			</row>
 	</layout>
 	<layout name="upozorenja_1">
