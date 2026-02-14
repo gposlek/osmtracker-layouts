@@ -28,7 +28,7 @@
 				<row>
 					<button type="tag" label="  50 " icon="test-hr_icons/50.png"/>
 					<button type="tag" label="  100 " icon="test-hr_icons/100.png"/>
-					<button type="tag" label=" City end " icon="test-hr_icons/cityend.png"/>
+					<button type="tag" label=" City end " icon="test-hr_icons/city_end.png"/>
 				</row>
 				<row>
 					<button type="tag" label="  60 " icon="test-hr_icons/60.png"/>
@@ -63,7 +63,7 @@
 				<button type="tag" label="Serpentina desno" icon="test-hr_icons/serpentine_r.png"/>
 			</row>
 			<row>
-				<button type="page" label=">" icon="forward.png" targetlayout="upozorenja_1" />
+				<button type="page" label=">" icon="test-hr_icons/forward.png" targetlayout="upozorenja_1" />
 			</row>
 	</layout>
 	<layout name="upozorenja_1">
@@ -88,7 +88,7 @@
 				<button type="tag" label="Djeca na cesti" icon="test-hr_icons/children.png"/>
 			</row>
 			<row>
-				<button type="page" label=">" icon="forward.png" targetlayout="upozorenja_2" />
+				<button type="page" label=">" icon="test-hr_icons/forward.png" targetlayout="upozorenja_2" />
 			</row>
 	</layout>
 	<layout name="upozorenja_2">
@@ -103,7 +103,7 @@
 				<button type="tag" label="Prijelaz bez branika" icon="test-hr_icons/train.png"/>
 			</row>
 			<row>
-				<button type="page" label=">" icon="forward.png" targetlayout="upozorenja_3" />
+				<button type="page" label=">" icon="test-hr_icons/forward.png" targetlayout="upozorenja_3" />
 			</row>
 	</layout>
 	<layout name="upozorenja_3">
