@@ -63,7 +63,7 @@
 				<button type="tag" label="Serpentina desno" icon="test-hr_icons/serpentine_r.png"/>
 			</row>
 			<row>
-				<button type="page" label=">" icon="test-hr_icons/forward.png" targetlayout="upozorenja_1" />
+				<button type="page" icon="test-hr_icons/forward.png" targetlayout="upozorenja_1" />
 			</row>
 	</layout>
 	<layout name="upozorenja_1">
@@ -88,7 +88,7 @@
 				<button type="tag" label="Djeca na cesti" icon="test-hr_icons/children.png"/>
 			</row>
 			<row>
-				<button type="page" label=">" icon="test-hr_icons/forward.png" targetlayout="upozorenja_2" />
+				<button type="page" icon="test-hr_icons/forward.png" targetlayout="upozorenja_2" />
 			</row>
 	</layout>
 	<layout name="upozorenja_2">
@@ -103,7 +103,7 @@
 				<button type="tag" label="Prijelaz bez branika" icon="test-hr_icons/train.png"/>
 			</row>
 			<row>
-				<button type="page" label=">" icon="test-hr_icons/forward.png" targetlayout="upozorenja_3" />
+				<button type="page" icon="test-hr_icons/forward.png" targetlayout="upozorenja_3" />
 			</row>
 	</layout>
 	<layout name="upozorenja_3">
