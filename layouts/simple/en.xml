@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 
 <layouts>
-	<layout name="root" id="home">
+	<layout name="root">
 		<row>
 			<button type="picture" icon="logo_camera"/>
 			<button type="textnote" icon="logo_textnote"/>
@@ -55,9 +54,7 @@
 				<button type="tag" label="Serpentina desno" icon="my_icons/serpentine_r.png"/>
 			</row>
 			<row>
-				
 				<button type="page" label=" > > > " targetlayout="upozorenja_1" />
-				
 			</row>
 	</layout>
 	<layout name="upozorenja_1">
