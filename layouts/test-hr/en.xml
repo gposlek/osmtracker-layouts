@@ -135,11 +135,8 @@
 				<button type="tag" label="TEST_BUTTON" icon="test-hr_icons/default_icon.png"/>
 			</row>
 			<row>
-				<button type="page" icon="forward.png" targetlayout="obavijesti_1" />
+				<button type="tag" label="TEST_BUTTON" icon="test-hr_icons/default_icon.png"/>
 			</row>
-		<row>
-			<button type="tag" label="TEST_BUTTON" icon="test-hr_icons/default_icon.png"/>
-		</row>
 	</layout>
 
 </layouts>
