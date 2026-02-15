@@ -123,7 +123,7 @@
 			</row>
 			<row></row>
 	<row>
-			<button type="tag" label="TEST_BUTTON" icon="test-hr_icons/default_icon.png" targetlayout="root"/>
+			<button type="page" label="HOME" icon="test-hr_icons/default_icon.png" targetlayout="root"/>
 			</row>
 	</layout>
 	<layout name="obavijesti">
