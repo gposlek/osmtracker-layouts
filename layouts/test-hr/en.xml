@@ -61,13 +61,16 @@
 				<button type="tag" label="Životinje na cesti" icon="test-hr_icons/cattle.png"/>
 				<button type="tag" label="Odron desno" icon="test-hr_icons/landslide_r.png"/>
 			</row>
+	<!--
 			<row>
 				<button type="tag" label="Serpentina lijevo" icon="test-hr_icons/serpentine_l.png"/>
 				<button type="tag" label="Divljač na cesti" icon="test-hr_icons/wildlife.png"/>
 				<button type="tag" label="Serpentina desno" icon="test-hr_icons/serpentine_r.png"/>
 			</row>
+	-->
 			<row>
-				<button type="page" label="> > >" icon="test-hr_icons/forward.png" iconpos="bottom" targetlayout="upozorenja_1" />
+				<row></row>
+				<button type="page" icon="test-hr_icons/forward.png" iconpos="bottom" targetlayout="upozorenja_1" />
 			</row>
 	</layout>
 	<layout name="upozorenja_1">
@@ -86,13 +89,16 @@
 				<button type="tag" label="Kružni tok" icon="test-hr_icons/roundabout.png"/>
 				<button type="tag" label="Y desno" icon="test-hr_icons/y_junction_r.png"/>
 			</row>
+	<!--
 			<row>
 				<button type="tag" label="Pješaci na cesti" icon="test-hr_icons/pedestrian.png"/>
 				<button type="tag" label="Pješački prijelaz" icon="test-hr_icons/pedestrian_x.png"/>
 				<button type="tag" label="Djeca na cesti" icon="test-hr_icons/children.png"/>
 			</row>
+	-->
 			<row>
-				<button type="page" label=">" icon="test-hr_icons/forward.png" targetlayout="upozorenja_2" />
+				<row></row>
+				<button type="page"  icon="test-hr_icons/forward.png" targetlayout="upozorenja_2" />
 			</row>
 	</layout>
 	<layout name="upozorenja_2">
@@ -106,8 +112,16 @@
 				<button type="tag" label="Andrijin križ" icon="test-hr_icons/train_x.png"/>
 				<button type="tag" label="Prijelaz bez branika" icon="test-hr_icons/train.png"/>
 			</row>
+			
 			<row>
-				<button type="page" label=">" icon="test-hr_icons/forward.png" targetlayout="upozorenja_3" />
+				<button type="tag" label="Pješaci na cesti" icon="test-hr_icons/pedestrian.png"/>
+				<button type="tag" label="Pješački prijelaz" icon="test-hr_icons/pedestrian_x.png"/>
+				<button type="tag" label="Djeca na cesti" icon="test-hr_icons/children.png"/>
+			</row>
+			
+			<row>
+				<row></row>
+				<button type="page" icon="test-hr_icons/forward.png" targetlayout="upozorenja_3" />
 			</row>
 	</layout>
 	<layout name="upozorenja_3">
