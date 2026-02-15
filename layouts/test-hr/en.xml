@@ -118,7 +118,13 @@
 			</row>
 	</layout>
 	<layout name="upozorenja_3">
+			<row>
 			<button type="tag" label="TEST_BUTTON" icon="test-hr_icons/default_icon.png"/>
+			</row>
+			<row></row>
+	<row>
+			<button type="tag" label="TEST_BUTTON" icon="test-hr_icons/default_icon.png" targetlayout="root"/>
+			</row>
 	</layout>
 	<layout name="obavijesti">
 			<row>
