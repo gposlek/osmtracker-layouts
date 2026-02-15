@@ -1,7 +1,4 @@
-<!DOCTYPE test [
-  <!ENTITY ogranicenja "ogranicenja">
-  <!ENTITY upozorenja "upozorenja">
-]
+
 <layouts>
 	<layout name="root">
 		<row>
@@ -10,7 +7,7 @@
 			<button type="voicerec" icon="logo_voice"/>
 		</row>
 		<row>
-			<button type="page" label="Ograničenja" targetlayout="&ogranicenja" icon="my_icons/100.png"/>
+			<button type="page" label="Ograničenja" targetlayout="ogranicenja" icon="my_icons/100.png"/>
 			<button type="page" label="Upozorenja" targetlayout="upozorenja" icon="my_icons/warning.png"/>
 		</row>
 	</layout>
