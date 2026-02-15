@@ -69,7 +69,6 @@
 			</row>
 	-->
 			<row>
-				<row></row>
 				<button type="page" icon="test-hr_icons/forward.png" iconpos="bottom" targetlayout="upozorenja_1" />
 			</row>
 	</layout>
@@ -97,7 +96,6 @@
 			</row>
 	-->
 			<row>
-				<row></row>
 				<button type="page"  icon="test-hr_icons/forward.png" targetlayout="upozorenja_2" />
 			</row>
 	</layout>
@@ -120,7 +118,6 @@
 			</row>
 			
 			<row>
-				<row></row>
 				<button type="page" icon="test-hr_icons/forward.png" targetlayout="upozorenja_3" />
 			</row>
 	</layout>
