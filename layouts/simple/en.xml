@@ -1,6 +1,7 @@
-<!ENTITY ogranicenja "ogranicenja">
-<!ENTITY upozorenja "upozorenja">
-
+<!DOCTYPE test [
+  <!ENTITY ogranicenja "ogranicenja">
+  <!ENTITY upozorenja "upozorenja">
+]
 <layouts>
 	<layout name="root">
 		<row>
