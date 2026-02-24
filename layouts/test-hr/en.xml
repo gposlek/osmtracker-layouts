@@ -63,7 +63,7 @@
 									<button type="tag" label=" Camera " icon="test-hr_icons/camera.png"/>
 								</row>
 								<row>
-								<button type="page" label="back" icon="test-hr_icons/back.png" targetlayout="okomito"/>
+								<button type="page"  icon="test-hr_icons/back.png" targetlayout="okomito"/>
 								<!--
 								<button type="page" label="home" icon="test-hr_icons/home.png" targetlayout="root"/>
 								<button type="page" label="forward" icon="test-hr_icons/forward-1.png"  targetlayout="upozorenja_1" />
@@ -94,9 +94,9 @@
 								<button type="tag" label="Serpentina desno" icon="test-hr_icons/serpentine_r.png"/>
 							</row>
 							<row>
-								<button type="page" label="back" icon="test-hr_icons/back.png" targetlayout="okomito"/>
+								<button type="page"  icon="test-hr_icons/back.png" targetlayout="okomito"/>
 								<!--			<button type="page" label="home" icon="test-hr_icons/home.png" targetlayout="root"/> -->
-								<button type="page" label="forward" icon="test-hr_icons/forward-1.png"  targetlayout="upozorenja_1" />
+								<button type="page"  icon="test-hr_icons/forward.png"  targetlayout="upozorenja_1" />
 							</row>
 					</layout>
 
@@ -124,9 +124,9 @@
 								<button type="tag" label="Djeca na cesti" icon="test-hr_icons/children.png"/>
 							</row>
 							<row>
-								<button type="page" label="back" icon="test-hr_icons/back.png" targetlayout="upozorenja"/>
-								<button type="page" label="home" icon="test-hr_icons/home.png" targetlayout="okomito"/>
-								<button type="page" label="forward" icon="test-hr_icons/forward-1.png"  targetlayout="upozorenja_2" />
+								<button type="page"  icon="test-hr_icons/back.png" targetlayout="upozorenja"/>
+								<button type="page"  icon="test-hr_icons/home.png" targetlayout="okomito"/>
+								<button type="page"  icon="test-hr_icons/forward.png"  targetlayout="upozorenja_2" />
 							</row>
 					</layout>
 
@@ -150,9 +150,9 @@
 							</row>
 
 							<row>
-								<button type="page" label="back" icon="test-hr_icons/back.png" targetlayout="upozorenja_1"/>
-								<button type="page" label="home" icon="test-hr_icons/home.png" targetlayout="okomito"/>
-								<button type="page" label="forward" icon="test-hr_icons/forward-1.png"  targetlayout="upozorenja_3" />
+								<button type="page"  icon="test-hr_icons/back.png" targetlayout="upozorenja_1"/>
+								<button type="page"  icon="test-hr_icons/home.png" targetlayout="okomito"/>
+								<button type="page"  icon="test-hr_icons/forward-1.png"  targetlayout="upozorenja_3" />
 							</row>
 					</layout>
 
@@ -163,9 +163,9 @@
 							</row>
 							<row></row>
 							<row>
-								<button type="page" label="back" icon="test-hr_icons/back.png" targetlayout="upozorenja_2"/>
-								<button type="page" label="home" icon="test-hr_icons/home.png" targetlayout="okomito"/>
-								<button type="page" label="forward" icon="test-hr_icons/forward-1.png"  targetlayout="upozorenja_4" />
+								<button type="page"  icon="test-hr_icons/back.png" targetlayout="upozorenja_2"/>
+								<button type="page"  icon="test-hr_icons/home.png" targetlayout="okomito"/>
+								<button type="page"  icon="test-hr_icons/forward-1.png"  targetlayout="upozorenja_4" />
 							</row>
 					</layout>
 
